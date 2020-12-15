@@ -1,8 +1,47 @@
 <html>
     <head>
+        <style>
+            body{
+                background-color: black;
+                color: #ffffff;
+            }
+            .card{
+                float: left;
+                height: 15vh;
+                background-color: blue;
+                width: 25vh;
+                margin-left: 20px;
+                border: 1px transparent;
+                border-radius: 4px;
+            }
+           .outline{
+               border: 1px;
+           }
+        </style>
         <h1>
-            Hi there, this is a test.
+            <!--T-M-B = The Main Box-->
+            <div class="t-m-b">
+                <div class="container">
+                    <div class="top-cont">
+                        <p>SNKRS</p>
+                        <p>Select A Store</p>
+                        <div class="stores">
+                            <div onclick="lol()" class="cards">
+                                <div class="card card-1"><p>p</p></div>
+                                <div class="card card-2"><p>p</p></div>
+                                <div class="card card-3"><p>p</p></div>
+                                <div class="card card-4"><p>p</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </h1>
     </head>
+    <script>
+        function lol() {
+            alert("working")
+        }
+    </script>
 </html>
 
